@@ -1,25 +1,56 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2019-01-19 18:35:49 +0100
-categories: jekyll update
+title:  "Moving to Jekyll!"
+date:   2019-07-29 18:35:49 +0100
+categories: jekyll update blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+And finally I managed to move some of blog posts to Jekyll. 
+I finally mapped a first level web domain to this blog. 
+So from now on you can reach me at [https://simonekalb.me].
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I tried to compile a short list of my next articles inspired by this not-so-easy switch from Wordpress to  a Jekyll-based installation that could be useful for some of you out there:
+  
+  * Installing a Ruby Environment on Debian 9 (WSL)
+  * Manage a Windows/Linux/macOs test environment for Jekyll
+  * I do I update pages on Jekyll and hopefully install custom themes
+  
+Then in the last few months I tried to move away as far as possible from cloud solutions I can't control.
 
-Jekyll also offers powerful support for code snippets:
+So the next moves are:
+  
+  * Install a Bitwarden hosted solution to manage my passwords (in lieu of Google Password Sync)
+  * Move away from Google Chrome and Firefox (yes, I hate Firefox as well) and use Waterfox
+  * Move away from VSCode/Atom/Brackets/Sublime and embrace Vim+TMux
+  * Build post-installation scripts for Windows (and share it) 
+  * Build post-installation scripts for macOs
+  * Build post-installation scripts for Arch Linux/Debian
+  * Build a triple-boot computer from scratch
+  * Share command line setup between OSes via git repository
+  * Build your own software rather than download precompiled sources
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I would like to continue to keep updated a new retrocomputing/retrogaming section I planned for long time but I didn't have time and dedication to make it happen in the past. Next articles should be:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+  * Restore a broken OnePlus One with Linage and Retroarch for perfect portability
+  * PSVita TV as Retrocomputing device 
+  * NES/SNES/PSOne Classic best mods
+  * From trash to treasure series
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Hopefully I would like to keep a schedule of next talk I goin' to prepare on following topics:
+
+  * Measuring a full stack project made for fun (BE, Mobile)
+  * Using Java as a static language for fun and profit
+  * Goin' selfhosted to survive data branches
+  * Goin' minimalist to save money and the environment
+  * Measure your house electricity expenses with Free Software
+  * Don't call it Open Source if it's Free Software (or "How corporations change meaning to things to control it")
+
+If you like to follow me I would like to set up an RSS feed (although is a bit outdated).
+Thanks for reading it and will catch you in the near future. 
+ 
+
+
+
+
+
+
+
