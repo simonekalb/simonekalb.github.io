@@ -166,7 +166,3 @@ And in order to install a repository remember that Debian won't use ```dirmngr``
 As [somebody](https://blog.sleeplessbeastie.eu/2017/11/02/how-to-fix-missing-dirmngr/) smarter than me pointed out.
 
 Now you should be able to add any remote repository.
-
-
-
-
