@@ -7,11 +7,11 @@ categories: jekyll update blog
 
 And finally I managed to move some of blog posts to Jekyll. 
 I finally mapped a first level web domain to this blog. 
-So from now on you can reach me at [simonekalb.me](https://simonekalb.me).
+So from now on you can reach me at [simonekalb.me](http://simonekalb.me).
 
 I tried to compile a short list of my next articles inspired by this not-so-easy switch from Wordpress to  a Jekyll-based installation that could be useful for some of you out there:
   
-  * [Installing a Jekyll Test Environment on Debian 9 (WLS)]({{ site.baseurl }}{% link _posts/2019-01-19-welcome-to-jekyll.markdown %})
+  * [Installing a Jekyll Test Environment on Debian 9 (WLS)]({{ site.baseurl }}{% link _posts/2019-01-19-moving-to-jekyll.md %})
   * Manage a Windows/Linux/macOs test environment for Jekyll
   * I do I update pages on Jekyll and hopefully install custom themes
   
