@@ -11,8 +11,8 @@ To test Jekyll in order to avoid the configuration of [RubyInstaller](https://ru
 
 ## Debian on WLS
 
-So after installing Debian, by simply search and install Debian from [Microsoft Store](https://www.microsoft.com/store/productId/9MSVKQC78PK6) and configured some a username, firstly I tried to install Ruby v 2.5.x or higher as the Jekyll website suggested so:
-```
+So after installing Debian, by simply search and install Debian from [Microsoft Store](https://www.microsoft.com/store/productId/9MSVKQC78PK6), and choose a username and password, I firstly tried to install Ruby v 2.5.x or higher as the Jekyll website suggested so:
+```bash
     $ sudo apt-get update -y && sudo apt-get upgrade -y
     $ sudo apt-add-repository ppa:brightbox/ruby-ng
 ```
@@ -33,14 +33,14 @@ Luckily in less than 10 minutes I figure out:
 I leave you in side notes of this article some advice to make apt-add-repository make it work on Debian and make GPG work with dirmngr for network operations, something not related to but useful in daily usage of the system.  
 
 So, in order to complete a simple and pretty trivial task I change completely the way to install Ruby and use [RbEnv](https://github.com/rbenv/rbenv):
-```
+```bash
     $ # Prepare your system to install rbenv and ruby-build script
     $ sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
     $ # Actually install REnv (make sure you are on bash)
     $ curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
 ```
 Again I got an error message:
-```
+```bash
 Installing rbenv with git...
 Initialized empty Git repository in /home/zack/.rbenv/.git/
 Updating origin
@@ -90,7 +90,7 @@ Ok, fine.
 
 Let's add it.
 
-```
+```bash
     $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
     $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
     $ source ~/.bashrc
@@ -103,7 +103,7 @@ As explained in [this](https://linuxize.com/post/how-to-install-ruby-on-debian-9
 ## Install Ruby via RbEnv
 
 So right now I can finally install Ruby:
-```
+```bash
     $ rbenv install 2.5.0 
     $ rbenv global 2.5.0
     $ rbenv install 2.5.0-dev
@@ -116,13 +116,13 @@ So right now I can finally install Ruby:
 ## Make Jekyll installation working properly
 
 In my case I already had a Jekyll installation so I just clone my repository:
-```
+```bash
     $ mkdir development
     $ cd ~
     $ cd development && git clone https://github.com/simonekalb/simonekalb.github.io.git
 ```
 So inside the last directory make sure you don't have any Gemfile.lock in case you can safely remove it as it can generate some version mismatch errors.
-```
+```bash
     $ jekyll serve --no-watch --baseurl ""
 ```
 The ```--nowatch ``` flags avoid auto-regeneration on Bash Windows version, that has [bugs](https://github.com/Microsoft/BashOnWindows/issues/216).
@@ -136,7 +136,7 @@ I believe that if WLS is a great tool on Windows, Jekyll is not a really friendl
 I remember having same issues on macOs, so probably the whole bundle is kinda broken. 
 
 So to sum it up I installed versions:
-```
+```bash
     $ gem -v
 2.7.3
     $ ruby -v
@@ -154,13 +154,13 @@ As a side note I leave you 2 tricks a novice can come across while tryin' to use
 First of all you cannot use ```
 apt-get-repository``` out-of-the-box in Debian 9.
 You should install:
-```
+```bash
     sudo apt-get install software-properties-common
 ```
 Which install a lot of unneccessary crap.
 And in order to install a repository remember that Debian won't use ```dirmngr``` install recommendation by default so you have to:
 
-```
+```bash
     $ sudo apt-get install dirmngr --install-recommends
 ```
 As [somebody](https://blog.sleeplessbeastie.eu/2017/11/02/how-to-fix-missing-dirmngr/) smarter than me pointed out.
