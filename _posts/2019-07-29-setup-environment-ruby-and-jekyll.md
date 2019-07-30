@@ -26,7 +26,7 @@ Luckily in less than 10 minutes I figure out:
 
     1. you cannot use apt-add-repository out-of-the-box on a Debian 9 installation (bah..)
     2. You cannot install a package from a ubuntu ppa on Debian (seems legit, but isn't Ubuntu based on Debian?)
-    3. now I remember why I move from GNU/Linux to macOs years ago
+    3. now I remember why I move from GNU/Linux to macOS years ago
     4. I was completely missing the point of Debian vs. Ubuntu
     5. Everybody consider Ubuntu as default distro for GNU/Linux users which is scary 
 
@@ -133,7 +133,7 @@ So from Windows you can connect to your Jekyll installation by connecting to htt
 
 I believe that if WLS is a great tool on Windows, Jekyll is not a really friendly environment to set up as I encountered a lot of strange errors and misconfiguration that the same Jekyll website won't address.
 
-I remember having same issues on macOs, so probably the whole bundle is kinda broken. 
+I remember having same issues on macOS, so probably the whole bundle is kinda broken. 
 
 So to sum it up I installed versions:
 ```bash

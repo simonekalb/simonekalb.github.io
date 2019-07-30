@@ -12,7 +12,7 @@ So from now on you can reach me at [simonekalb.me](http://simonekalb.me).
 I tried to compile a short list of my next articles inspired by this not-so-easy switch from Wordpress to  a Jekyll-based installation that could be useful for some of you out there:
   
   * [Installing a Jekyll Test Environment on Debian 9 (WLS)]({{ site.baseurl }}{% link _posts/2019-07-29-setup-environment-ruby-and-jekyll.md %})
-  * Manage a Windows/Linux/macOs test environment for Jekyll
+  * Manage a Windows/Linux/macOS test environment for Jekyll
   * I do I update pages on Jekyll and hopefully install custom themes
   
 Then in the last few months I tried to move away as far as possible from cloud solutions I can't control.
@@ -23,7 +23,7 @@ So the next moves are:
   * Move away from Google Chrome and Firefox (yes, I hate Firefox as well) and use Waterfox+Bitwarden
   * Move away from VSCode/Atom/Brackets/Sublime and embrace Vim+TMux
   * Build post-installation scripts for Windows (and share it) 
-  * Build post-installation scripts for macOs (and share it) 
+  * Build post-installation scripts for macOS (and share it) 
   * Build post-installation scripts for Arch Linux/Debian (and share it) 
   * Build a triple-boot computer from scratch
   * Share command line setup between OSes via git repository
