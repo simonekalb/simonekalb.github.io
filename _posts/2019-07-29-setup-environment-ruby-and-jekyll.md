@@ -9,6 +9,8 @@ Unfortunately the most time I spend during the day is using Windows, so I tried 
 
 To test Jekyll in order to avoid the configuration of [RubyInstaller](https://rubyinstaller.org/) as suggested by the Jekyll [website](https://jekyllrb.com/docs/installation/windows/), I went for WLS installation (Windows Linux Subsystem) of Debian (I don't like Ubuntu BTW).
 
+## Debian on WLS
+
 So after installing Debian, by simply search and install Debian from [Microsoft Store](https://www.microsoft.com/store/productId/9MSVKQC78PK6) and configured some a username, firstly I tried to install Ruby v 2.5.x or higher as the Jekyll website suggested so:
 ```
     $ sudo apt-get update -y && sudo apt-get upgrade -y
@@ -98,6 +100,8 @@ Let's add it.
 Still using bash right now in my WLS, change .bashrc with .zshrc if you're using ZSH.
 As explained in [this](https://linuxize.com/post/how-to-install-ruby-on-debian-9/) nice guide.
 
+## Install Ruby via RbEnv
+
 So right now I can finally install Ruby:
 ```
     $ rbenv install 2.5.0 
@@ -109,6 +113,8 @@ So right now I can finally install Ruby:
     $ # Now you should be able to install jekyll
     $ gem install jekyll bundler
 ```
+## Make Jekyll installation working properly
+
 In my case I already had a Jekyll installation so I just clone my repository:
 ```
     $ mkdir development
@@ -123,7 +129,7 @@ The ```--nowatch ``` flags avoid auto-regeneration on Bash Windows version, that
 
 So from Windows you can connect to your Jekyll installation by connecting to http://127.0.0.1:4000/
 
-### Conclusions
+## Conclusions
 
 I believe that if WLS is a great tool on Windows, Jekyll is not a really friendly environment to set up as I encountered a lot of strange errors and misconfiguration that the same Jekyll website won't address.
 
