@@ -9,6 +9,8 @@ And finally I managed to move some of blog posts to Jekyll.
 I finally mapped a first level web domain to this blog. 
 So from now on you can reach me at [simonekalb.me](http://simonekalb.me).
 
+My previous website is goin' to be still available at [old.simonekalb.me](http://old.simonekalb.me), as soon I can figure out how to access to my old hosting provider since they changed all web interfaces without notices.
+
 I tried to compile a short list of my next articles inspired by this not-so-easy switch from Wordpress to  a Jekyll-based installation that could be useful for some of you out there:
   
   * [Installing a Jekyll Test Environment on Debian 9 (WLS)]({{ site.baseurl }}{% link _posts/2019-07-29-setup-environment-ruby-and-jekyll.md %})

@@ -10,6 +10,11 @@ Unfortunately the most time I spend during the day is using Windows, so I tried 
 To test Jekyll in order to avoid the configuration of [RubyInstaller](https://rubyinstaller.org/) as suggested by the Jekyll [website](https://jekyllrb.com/docs/installation/windows/), I went for WLS installation (Windows Linux Subsystem) of Debian (I don't like Ubuntu BTW).
 
 ## Debian on WLS
+In order to use WLS you have to open Powershell as administrator and type:
+
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
 
 So after installing Debian, by simply search and install Debian from [Microsoft Store](https://www.microsoft.com/store/productId/9MSVKQC78PK6), and choose a username and password, I firstly tried to install Ruby v 2.5.x or higher as the Jekyll website suggested so:
 ```bash
