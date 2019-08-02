@@ -160,7 +160,7 @@ First of all you cannot use ```
 apt-get-repository``` out-of-the-box in Debian 9.
 You should install:
 ```bash
-    sudo apt-get install software-properties-common
+    $ sudo apt-get install software-properties-common
 ```
 Which install a lot of unneccessary crap.
 And in order to install a repository remember that Debian won't use ```dirmngr``` install recommendation by default so you have to:
