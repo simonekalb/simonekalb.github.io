@@ -7,10 +7,10 @@ categories: jekyll installation blog
 
 Unfortunately the most time I spend during the day is using Windows, so I tried the best method to use as many Free (as in freedom) tools possible. 
 
-To test Jekyll in order to avoid the configuration of [RubyInstaller](https://rubyinstaller.org/) as suggested by the Jekyll [website](https://jekyllrb.com/docs/installation/windows/), I went for WLS installation (Windows Linux Subsystem) of Debian (I don't like Ubuntu BTW).
+To test Jekyll in order to avoid the configuration of [RubyInstaller](https://rubyinstaller.org/) as suggested by the Jekyll [website](https://jekyllrb.com/docs/installation/windows/), I went for WSL installation (Windows Linux Subsystem) of Debian (I don't like Ubuntu BTW).
 
-## Debian on WLS
-In order to use WLS you have to open Powershell as administrator and type:
+## Debian on WSL
+In order to use WSL you have to open Powershell as administrator and type:
 
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -102,7 +102,7 @@ Let's add it.
     $ # As requested in Jekyll docs we install dh-autoreconf
     $ sudo apt-get install dh-autoreconf  
 ```
-Still using bash right now in my WLS, change .bashrc with .zshrc if you're using ZSH.
+Still using bash right now in my WSL, change .bashrc with .zshrc if you're using ZSH.
 As explained in [this](https://linuxize.com/post/how-to-install-ruby-on-debian-9/) nice guide.
 
 ## Install Ruby via RbEnv
@@ -136,7 +136,7 @@ So from Windows you can connect to your Jekyll installation by connecting to htt
 
 ## Conclusions
 
-I believe that if WLS is a great tool on Windows, Jekyll is not a really friendly environment to set up as I encountered a lot of strange errors and misconfiguration that the same Jekyll website won't address.
+I believe that if WSL is a great tool on Windows, Jekyll is not a really friendly environment to set up as I encountered a lot of strange errors and misconfiguration that the same Jekyll website won't address.
 
 I remember having same issues on macOS, so probably the whole bundle is kinda broken. 
 

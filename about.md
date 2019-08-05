@@ -112,10 +112,11 @@ I also used to practice tennis at amateur level when I was a child and I managed
 
 I compete in some local aquathlon (swimming and running) events and short running competitions (no more than 10km non competitive) as in the last 15 years I kept running more or less 2 time a week for 5/10 km. 
 I keep my recordings in Nike+ application since 2005, which I would like to share asap.   
+In my spare time, I read a lot of book especially science fiction (I collect [URANIA](http://blog.librimondadori.it/blogs/urania/) italian sf series), and fantasy settings such as Lord Of The Rings, R.A. Salvatore's Drizzt Series, Game Of Thrones and some Games Workshop licenced TrollSlayer's series. 
 
-In my spare time, I read a lot of book especially science fiction (I collect [URANIA](http://blog.librimondadori.it/blogs/urania/) italian sf series), and fantasy
+I also love some read contemporary politics and italian's recent history, especially those involving mafia's history and its relationship with politics. I like to read biographies of influential people of the 21 century.   
 
-
-
+I love trekking in mountain and when possible I go snowboarding.
+That's pretty much all. If you like to contact me you can open an issue on [GitHub](https://github.com/simonekalb/simonekalb.github.io/issues) where this code is temporarly hosting. 
 
 
