@@ -5,14 +5,14 @@ permalink: /about/
 ---
 
 I am a software engineer based in [Cagliari](https://www.openstreetmap.org/#map=19/39.21718/9.11334), Italy.
-I've been building professionally for the last 12 years now.
+I've been building professionally applications for the last 12 years now.
 
 ## Early years
 
 I started using computers from pretty much 1992/1993, I believe, when I was given a brand new **Amiga 500**.
 It was an incredibily powerful machine and it's still my favorite computer of all time. 
 
-I started thinkering with x86 computers some years later starting from a Intel 486DX2@66Mhz where I was using MS-DOS and Windows 3.1. I remember crearly spending hours modifying AUTOEXEC.BAT and CONFIG.SYS and try to free as much as base memory as possible in order to boot some games. It was pretty frustrating, but at some point I was be able to make every game run correctly.
+I started thinkering with x86 computers some years later starting from a Intel 486DX2@66Mhz where I was using MS-DOS and Windows 3.1. I remember crearly spending hours modifying AUTOEXEC.BAT and CONFIG.SYS and try to free as much as base memory as possible in order to boot some games. It was pretty frustrating, but at some point I was able to make every game run correctly.
 
 Then Windows '95 came and although it has some nice features (like **Plug'n'Pray**) and support for high resolution, I knew that existed a free kernel built from a guy in Finland named Linus Torvalds. I was confused but I decided to try an operating system build on top of this kernel, packed and distributed freely on the net. Its name was Slackware 3.5. 
 
@@ -22,14 +22,15 @@ It was a blast.
 
 Everything was uber difficult especially if you have to make ISDN driver to work properly. I recompiled the kernel an insane amount of times but at least I have it work properly. Then I discovered the Linux Day in Italy and took part of it in my city. 
 
-I was 16 y/o and I spent countless hour thinkering, hacking and setup everything in order to work properly. 
+I was 16 y/o and I spent countless hour thinkering, hacking and setting up everything in order to work properly. 
 
 It was exciting, but stressful. 
 
 XFree was a mess and you had to configure the right horizontal and vertical frequency of your monitor trying to avoid to brake everything. 
-I moved to RedHat 6.2 which was much more user friendly and the ISDN driver where easier to configure.
 
-In 1997 I build my first personal website on my High School's webserver thanks to my Computer Science/Math professor. I then published two other websites one about [Antonio Gramsci](https://en.wikipedia.org/wiki/Antonio_Gramsci) and one about a research on [Black Panther Party](https://en.wikipedia.org/wiki/Black_Panther_Party) I made at the time.
+I then moved to RedHat 6.2 which was much more user friendly and the ISDN driver where easier to configure (you still have to recompile the kernel though).
+
+In 1997 I build my first personal website on my High School's webserver thanks to my Math professor. I then published two other websites one about [Antonio Gramsci](https://en.wikipedia.org/wiki/Antonio_Gramsci) and one about a research on [Black Panther Party](https://en.wikipedia.org/wiki/Black_Panther_Party) I made at the time.
 
 Meanwhile I learned a bit of Pascal at school and made a RPG Character Generator with it. 
 
@@ -43,7 +44,8 @@ I was pretty happy.
 I then build a complete website for my dad's company and put it online all by myself. 
 Much of it was developed on Linux using [Blowfish](http://bluefish.openoffice.nl/index.html) and [GIMP](https://www.gimp.org/). I also built a soccer-related website for some clients, it was funny.
 
-I was aming to use GNU/Linux for all DTP stuff since I couldn't afford any Macintosh at the time. 
+I was aming to use GNU/Linux for all DTP stuff since I couldn't afford any Macintosh at the time.
+But the system wasn't ready for desktop at the time. 
 
 ## Education and ethics
 
