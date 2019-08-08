@@ -9,7 +9,7 @@ Hi, there, today I would like to write about something I personally surprised me
 Yes, that's because using WSL in Windows is surprisingly good.
 
 ## What is WSL and why we should bother
-Windows Subsystem for Linux, or WSL for short, is a really cool piece of technology brought by Microsoft in August 2016 for the first time and in June 2019 with the introduction of WSL 2.
+[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), or **WSL** for short, is a really cool piece of technology brought by Microsoft in August 2016 for the first time and in June 2019 with the introduction of WSL 2.
 
 Essentially we talking about a compatibility layer between Windows and GNU/Linux. 
 Microsoft claims that you can run linux applications and utilites inside Windows 10 (and Windows server 2019) without the overhead of some form of virtualization.
@@ -112,6 +112,11 @@ Click on last icon on the bottom of the sidebar at right of the editor (or press
 
 * [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+* [SpellRight](https://github.com/bartosz-antosik/vscode-spellright)
+
+The first shows a preview of rendered markdown files, the second shows icons for every single file and the third is useful for spellcheck of the languages. Keep in mind that if you have Windows Enterprise you can have a bug that prevents you to display non-installed spellchecked languages in Windows and sometimes you cannot install other than the default, if you're not administrator of your computer. 
+
+It sadly happened to me.
 
 But aside from that something more important is to make sure that you can start jekyll from inside terminal console of VSCodium via Windows Linux Subsystem, which is incredible in my opinion. Open a Terminal inside VSCodium and select **wsl** from top down menu. 
 
