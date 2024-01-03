@@ -19,7 +19,7 @@ Here's some of the trending topics I want to share with you:
 
 As I move to older age, I feel the need to share more online, contribute more to the community of programmer, thinkerers, hackers.
 I'm going to start with a simple new workflow:
-I'm going to create a new (private for now) repository in which I share all my day by day activities at a given date in [joplin](https://www.joplinapp.org) (my todo editor of choice) and export them into a single Mardown file for each day and then create a day by day agenda in which I share with myself all the achievements and todo things I need to accomplish.
+I'm going to create a new (private for now) repository in which I share all my day by day activities at a given date in [joplin](https://www.joplinapp.org) (my todo editor of choice) and export them into a single Markdown file for each day and then create a day by day agenda in which I share with myself all the achievements and todo things I need to accomplish.
 
 I know it's trivial but on top of that I'm studying a simple way to selfhost an instance of [OpenProject](https://www.openproject.org) and create a series of Scrum project to handle each important phases of my life (housekeeping, finances, family, travel, personal projects) and share it with community as much as I can.
 
