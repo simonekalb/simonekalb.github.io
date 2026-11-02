@@ -31,6 +31,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Pages shown in the header menu (the generated wiki/ pages stay out of it).
+header_pages:
+  - about.md
+  - wiki/index.md
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
