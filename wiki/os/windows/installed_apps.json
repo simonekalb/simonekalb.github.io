@@ -1,0 +1,212 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2026-11-02T10:25:13.548-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "7zip.7zip",
+					"Version" : "26.03"
+				},
+				{
+					"PackageIdentifier" : "CPUID.CPU-Z",
+					"Version" : "3.01"
+				},
+				{
+					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark",
+					"Version" : "9.0.3"
+				},
+				{
+					"PackageIdentifier" : "Git.Git",
+					"Version" : "2.55.0.3"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++",
+					"Version" : "8.9.8.1"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC",
+					"Version" : "3.0.23"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.GameInput",
+					"Version" : "4.0.302.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.85.0.0"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim",
+					"Version" : "0.12.5"
+				},
+				{
+					"PackageIdentifier" : "AprilNEA.OpenLogi",
+					"Version" : "0.8.9"
+				},
+				{
+					"PackageIdentifier" : "GOG.Galaxy",
+					"Version" : "2.1.10.56"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice",
+					"Version" : "26.8.2.2"
+				},
+				{
+					"PackageIdentifier" : "Duplicati.Duplicati",
+					"Version" : "2.3.0.4"
+				},
+				{
+					"PackageIdentifier" : "wez.wezterm",
+					"Version" : "20240203-110809-5046fc22"
+				},
+				{
+					"PackageIdentifier" : "Blizzard.BattleNet",
+					"Version" : "Unknown"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge",
+					"Version" : "156.0.4314.58"
+				},
+				{
+					"PackageIdentifier" : "OBSProject.OBSStudio",
+					"Version" : "32.0.1"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam",
+					"Version" : "2.10.91.91"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.51.36247.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.6.9.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8",
+					"Version" : "8.0.33"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86",
+					"Version" : "8.0.61001"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.51.36247.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
+					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden",
+					"Version" : "2026.9.0"
+				},
+				{
+					"PackageIdentifier" : "Joplin.Joplin",
+					"Version" : "3.7.22"
+				},
+				{
+					"PackageIdentifier" : "Anthropic.ClaudeCode",
+					"Version" : "2.1.302"
+				},
+				{
+					"PackageIdentifier" : "Anthropic.Claude",
+					"Version" : "4.4212.0"
+				},
+				{
+					"PackageIdentifier" : "Brave.Brave",
+					"Version" : "156.1.98.63"
+				},
+				{
+					"PackageIdentifier" : "Rufus.Rufus",
+					"Version" : "4.15"
+				},
+				{
+					"PackageIdentifier" : "SumatraPDF.SumatraPDF",
+					"Version" : "3.6.1"
+				},
+				{
+					"PackageIdentifier" : "code52.Carnac",
+					"Version" : "2.3.13"
+				},
+				{
+					"PackageIdentifier" : "WinSCP.WinSCP",
+					"Version" : "6.5.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys",
+					"Version" : "0.102.3001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller",
+					"Version" : "1.29.380.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DirectX",
+					"Version" : "9.29.1974.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Native.Runtime",
+					"Version" : "2.2.28604.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
+					"Version" : "8.2511.26001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
+					"Version" : "14.0.33728.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.14",
+					"Version" : "14.0.33519.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.5",
+					"Version" : "1.5.9"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.7",
+					"Version" : "1.7.9"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.8",
+					"Version" : "> 1.8.10"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.2",
+					"Version" : "2.6.4.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal",
+					"Version" : "1.24.11911.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL",
+					"Version" : "2.7.13.0"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.29.380"
+}
