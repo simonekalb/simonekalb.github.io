@@ -138,9 +138,11 @@ once more on the built HTML. Finally the agent starts `jekyll serve` in the same
 opens the pages in a browser so I can look at them.
 
 The local test paid off on day one: every table on the hardware datasheet rendered as a wall of
-pipes. kramdown, unlike GitHub's renderer, only recognises a table when a blank line precedes it,
-and my pages put tables right under the headings. The adapter now inserts that blank line, and a
-test makes sure it keeps doing so.
+pipes. The culprit was [kramdown](https://kramdown.gettalong.org/), the Ruby library Jekyll uses by
+default to convert Markdown into HTML, and the one this site is configured with. Unlike GitHub's
+renderer, it only recognises a table when a blank line precedes it, and my pages put tables right
+under the headings. The adapter now inserts that blank line, and a test makes sure it keeps doing
+so.
 
 ## Step 6: shipping
 
